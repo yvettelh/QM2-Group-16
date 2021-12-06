@@ -37,26 +37,45 @@ for ind, row in df.iterrows():
 
     print("Quering for entry " + str(ind + 1) + " out of " + str(len(df.index)))
 
+
+    #MusicStory Query
+    if ms_api.search('artist',name=row['artist']):
+        ms_artist = ms_api.search('artist',name=row['artist'])[0]
+        print(ms_artist.name)
+        print(ms_artist.type)
+        if ms_artist.type == 'Person':
+            gender = ms_artist.connector('sex')
+            #print(gender[0])
+            #df.loc[ind,'gender'] = ms_artist.sex
+            pass
+        elif ms_artist.type == 'Band':
+            #ms_artist.artists.member[0].Sex
+            members = ms_artist.connector('artists')
+            if members:
+                print(members[0].name)
+            df.loc[ind,'gender']= 'band'
+
+    #Genius Query
     genius_song = genius.search_song(row['song'])
     if not genius_song:
-        df.drop(ind, inplace=True)
-        df.reset_index( drop = True, inplace=True)
-        ind -= 1
         continue
-    #TextBlob language detection
+        #TextBlob language detection
     lyrics = TextBlob(genius_song.lyrics)
-    if lyrics.detect_language() != 'en':
-        df.drop(ind, inplace=True)
+    if row['song'] in ['I Wanna Be Loved', 'Reveille Rock']:    #some problematic songs
+        continue
+    elif lyrics.detect_language() != 'en':
+        '''df.drop(ind, inplace=True)
         df.reset_index( drop = True, inplace=True)
-        ind -= 1
+        ind -= 1'''
         continue
 
     #Genius Query + nltk results
     nltk_results = sentiment(genius_song.lyrics)
-    df.loc[ind, 'nltk_positive'] = nltk_results[0]
-    df.loc[ind, 'nltk_negative'] = nltk_results[1]
-    df.loc[ind, 'nltk_score'] = nltk_results[2]
-    df.loc[ind, 'nltk_top_emotion'] = nltk_results[3]
+    if nltk_results[0] != 0.0 or nltk_results[1] != 0.0 or nltk_results[2] != 0.0 :
+        df.loc[ind, 'nltk_positive'] = nltk_results[0]
+        df.loc[ind, 'nltk_negative'] = nltk_results[1]
+        df.loc[ind, 'nltk_score'] = nltk_results[2]
+        df.loc[ind, 'nltk_top_emotion'] = nltk_results[3]
 
     #Spotify Query
     spotify_result = spotify.search(row['song'])
@@ -65,13 +84,6 @@ for ind, row in df.iterrows():
 
         spotify_artist = spotify.artist(spotify_track["artists"][0]["external_urls"]["spotify"])    #Only first artist (if there are many)
         df_temp.loc[ind, 'genres'] = spotify_artist['genres'] #couldn't insert directly to df for some reason
-
-    #MusicStory Query
-    if ms_api.search('artist',name=row['artist']):
-        ms_artist = ms_api.search('artist',name=row['artist'])[0]
-        print(ms_artist.name)
-        '''if ms_artist:
-            df.loc[ind,'gender']=ms_artist.sex'''
 
 df = pandas.concat([df, df_temp], axis=1, join="inner")
 df.to_csv('data/data_processed.csv')
