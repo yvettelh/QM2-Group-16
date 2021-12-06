@@ -3,15 +3,15 @@ import os
 import lyricsgenius #Genius - lyrics
 import music_story #MusicStory - gender
 import spotipy #Spotify - genre?
+from textblob import TextBlob #language detection
+from sentiment_analysis_subroutine import sentiment
 
-df = pandas.read_csv('data/raw/charts_test.csv') #use 'data/raw/charts_test.csv' for a smaller file
-#df.head(1000).to_csv('data/raw/charts_test.csv')
-df.drop(columns = ['last-week','peak-rank','weeks-on-board'], inplace = True)
-df['date'] = pandas.to_datetime(df['date'])
-df['date'] = pandas.DatetimeIndex(df['date']).year
-print (df.head())
-print(df.dtypes)
+df = pandas.read_csv('data/raw/yearly_charts_test_tiny.csv') #use 'data/raw/charts_test.csv' for a smaller file
 df['gender'] = None
+df['nltk_positive'] = None
+df['nltk_negative'] = None
+df['nltk_score'] = None
+df['nltk_top_emotion'] = None
 
 genius_token = '2uOSW2EUhQLj1E87Ih_keYXVbKEnsKGhJMna9H_ymPuofv7KVrvon5UM3fhCraAwkffgo5WZ2l8FAesDoxoNNA'
 genius = lyricsgenius.Genius(genius_token)
@@ -37,6 +37,27 @@ for ind, row in df.iterrows():
 
     print("Quering for entry " + str(ind + 1) + " out of " + str(len(df.index)))
 
+    genius_song = genius.search_song(row['song'])
+    if not genius_song:
+        df.drop(ind, inplace=True)
+        df.reset_index( drop = True, inplace=True)
+        ind -= 1
+        continue
+    #TextBlob language detection
+    lyrics = TextBlob(genius_song.lyrics)
+    if lyrics.detect_language() != 'en':
+        df.drop(ind, inplace=True)
+        df.reset_index( drop = True, inplace=True)
+        ind -= 1
+        continue
+
+    #Genius Query + nltk results
+    nltk_results = sentiment(genius_song.lyrics)
+    df.loc[ind, 'nltk_positive'] = nltk_results[0]
+    df.loc[ind, 'nltk_negative'] = nltk_results[1]
+    df.loc[ind, 'nltk_score'] = nltk_results[2]
+    df.loc[ind, 'nltk_top_emotion'] = nltk_results[3]
+
     #Spotify Query
     spotify_result = spotify.search(row['song'])
     if spotify_result['tracks']['items']:
@@ -51,7 +72,7 @@ for ind, row in df.iterrows():
         print(ms_artist.name)
         '''if ms_artist:
             df.loc[ind,'gender']=ms_artist.sex'''
-    #Genius Query (unused)
 
 df = pandas.concat([df, df_temp], axis=1, join="inner")
 df.to_csv('data/data_processed.csv')
+
