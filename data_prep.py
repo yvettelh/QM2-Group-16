@@ -1,12 +1,12 @@
 import pandas
 import os
 import lyricsgenius #Genius - lyrics
-import music_story #MusicStory - gender
 import spotipy #Spotify - genre?
 from textblob import TextBlob #language detection
 from sentiment_analysis_subroutine import sentiment
 
-df = pandas.read_csv('data/raw/yearly_charts_test_tiny.csv') #use 'data/raw/charts_test.csv' for a smaller file
+GenderDB = pandas.read_csv('data/raw/GenderDataset.csv')
+df = pandas.read_csv('data/raw/yearly_charts.csv') #use 'data/raw/charts_test.csv' for a smaller file
 df['gender'] = None
 df['nltk_positive'] = None
 df['nltk_negative'] = None
@@ -15,13 +15,6 @@ df['nltk_top_emotion'] = None
 
 genius_token = '2uOSW2EUhQLj1E87Ih_keYXVbKEnsKGhJMna9H_ymPuofv7KVrvon5UM3fhCraAwkffgo5WZ2l8FAesDoxoNNA'
 genius = lyricsgenius.Genius(genius_token)
-
-ms_token = '5c59e24b78896f1f368808fe935869b646397d8c'
-ms_secret = '580922ef1cdce8e234c71d2c797787b3c1d37879'
-ms_api = music_story.MusicStoryApi(ms_token, ms_secret)
-tok = ms_api.token
-tok_secret = ms_api.token_secret
-ms_api.connect()
 
 spotify_clientid = '7d24fb005e074e9495b640c29624b17c'
 spotify_clientsecret = '9c7030f1dfa54d07b837e134e5736de4'
@@ -37,24 +30,23 @@ for ind, row in df.iterrows():
 
     print("Quering for entry " + str(ind + 1) + " out of " + str(len(df.index)))
 
-
-    #MusicStory Query
-    if ms_api.search('artist',name=row['artist']):
-        ms_artist = ms_api.search('artist',name=row['artist'])[0]
-        print(ms_artist.name)
-        print(ms_artist.type)
-        if ms_artist.type == 'Person':
-            gender = ms_artist.connector('sex')
-            #print(gender[0])
-            #df.loc[ind,'gender'] = ms_artist.sex
-            pass
-        elif ms_artist.type == 'Band':
-            #ms_artist.artists.member[0].Sex
-            members = ms_artist.connector('artists')
-            if members:
-                print(members[0].name)
-            df.loc[ind,'gender']= 'band'
-
+    GDBArtist = GenderDB.loc[ GenderDB['name'] == row['artist']]
+    for ind2, row2 in GDBArtist.iterrows():
+        GDBname = row2[1]
+        GDBpron = row2[3]
+        GDBgender = row2[4]
+    if GDBname == row['artist']:
+        if GDBpron == 'they/them' and GDBgender != None:
+            if GDBgender == 'male':
+                df.loc[ind, 'Gender'] = 'Male'
+            elif GDBgender == 'female':
+                df.loc[ind, 'Gender'] = 'Female'
+        elif GDBpron == 'he/him':
+            df.loc[ind, 'Gender'] = 'Male'
+        elif GDBpron == 'she/her':
+            df.loc[ind, 'Gender'] = 'Female'
+    print(df.loc[ind, 'Gender'])
+    
     #Genius Query
     genius_song = genius.search_song(row['song'])
     if not genius_song:
