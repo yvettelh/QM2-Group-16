@@ -10,8 +10,6 @@ import lyricsgenius
 genius = lyricsgenius.Genius('2uOSW2EUhQLj1E87Ih_keYXVbKEnsKGhJMna9H_ymPuofv7KVrvon5UM3fhCraAwkffgo5WZ2l8FAesDoxoNNA')
 
 #song = genius.search_song("I Wanna Be Loved")
-song = genius.search_song("Reveille Rock")
-print(song.lyrics)
 
 from nltk.sentiment import SentimentIntensityAnalyzer
 sia = SentimentIntensityAnalyzer()
@@ -93,5 +91,3 @@ def sentiment(text, emotions_breakdown = False, show_positivity = False, show_em
         return [percent_positive, percent_negative, positivity_score, top_emotion, emotion.raw_emotion_scores]   
     else:
         return [percent_positive, percent_negative, positivity_score, top_emotion]
-
-print(sentiment(song.lyrics, True))
