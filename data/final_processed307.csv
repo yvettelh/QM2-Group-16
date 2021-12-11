@@ -1,0 +1,21 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,6120,6120,2021,22,(There's No Place Like) Home For The Holidays,Perry Como,,0.248,0.099,0.9454,anticipation,Male,"['adult standards', 'brill building pop', 'easy listening', 'vocal jazz']"
+1,6121,6121,2021,23,It's Beginning To Look A Lot Like Christmas,Michael Buble,,0.193,0.0,0.9927,anticipation,,"['adult standards', 'canadian pop', 'jazz pop', 'lounge']"
+2,6122,6122,2021,24,Go Crazy,Chris Brown & Young Thug,,0.122,0.141,-0.8775,fear,,"['dance pop', 'pop', 'pop rap', 'r&b', 'rap']"
+3,6123,6123,2021,25,Laugh Now Cry Later,Drake Featuring Lil Durk,,0.108,0.171,-0.9936,joy,,"['canadian hip hop', 'canadian pop', 'hip hop', 'rap', 'toronto rap']"
+4,6124,6124,2021,26,Here Comes Santa Claus (Right Down Santa Claus Lane),Gene Autry,,0.129,0.025,0.9741,joy,Male,"['adult standards', 'rock-and-roll', 'rockabilly']"
+5,6125,6125,2021,27,Levitating,Dua Lipa Featuring DaBaby,,0.248,0.02,0.9989,joy,,"['dance pop', 'pop', 'uk pop']"
+6,6126,6126,2021,28,Wonderful Christmastime,Paul McCartney,,0.231,0.0,0.9965,joy,Male,"['album rock', 'art rock', 'beatlesque', 'classic rock', 'mellow gold', 'rock', 'soft rock']"
+7,6127,6127,2021,29,For The Night,Pop Smoke Featuring Lil Baby & DaBaby,,0.068,0.181,-0.998,anger,,['brooklyn drill']
+8,6128,6128,2021,30,I Hope,Gabby Barrett Featuring Charlie Puth,,0.219,0.194,0.7275,surprise,,"['contemporary country', 'country pop']"
+9,6129,6129,2021,31,Lemonade,Internet Money & Gunna Featuring Don Toliver & NAV,,0.093,0.122,-0.9729,fear,,"['rap', 'trap']"
+10,6130,6130,2021,32,"You're A Mean One, Mr. Grinch",Thurl Ravenscroft,,0.07,0.117,-0.8949,disgust,Male,['movie tunes']
+11,6131,6131,2021,33,Blue Christmas,Elvis Presley,,0.015,0.0,0.2023,sadness,Male,"['adult standards', 'rock-and-roll', 'rockabilly']"
+12,6132,6132,2021,34,Dakiti,Bad Bunny & Jhay Cortez,,0.02,0.131,-0.9939,anger,,"['latin', 'reggaeton', 'trap latino']"
+13,6133,6133,2021,35,Body,Megan Thee Stallion,,0.273,0.128,0.9974,joy,Female,"['houston rap', 'pop', 'trap queen']"
+14,6134,6134,2021,36,Mele Kalikimaka (Merry Christmas),Bing Crosby & The Andrews Sisters,,0.177,0.0,0.9908,fear,,"['adult standards', 'easy listening']"
+15,6135,6135,2021,37,Bang!,AJR,,0.1,0.15,-0.9959,fear,Male,"['modern rock', 'pop rap']"
+16,6136,6136,2021,38,Willow,Taylor Swift,,0.141,0.085,0.9829,sadness,Female,['pop']
+17,6137,6137,2021,39,This Christmas,Donny Hathaway,,0.28,0.031,0.9946,joy,Male,"['chicago soul', 'classic soul', 'funk', 'motown', 'neo soul', 'quiet storm', 'soul', 'southern soul', 'vocal jazz']"
+18,6138,6138,2021,40,34+35,Ariana Grande,,0.207,0.096,0.9955,sadness,Female,"['dance pop', 'pop']"
+19,6139,6139,2021,41,Kings & Queens,Ava Max,,0.081,0.156,-0.9794,trust,Female,"['dance pop', 'pop']"

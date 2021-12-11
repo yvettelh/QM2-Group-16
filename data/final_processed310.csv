@@ -1,0 +1,19 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,6180,6180,2021,82,Good Time,Niko Moon,,0.12,0.133,-0.6926,anticipation,Male,['contemporary country']
+1,6181,6181,2021,83,7 Summers,Morgan Wallen,,0.165,0.063,0.9915,joy,Male,['contemporary country']
+2,6182,6182,2021,84,Adderall (Corvette Corvette),Popp Hunna,,0.086,0.2,-0.9978,sadness,,['philly rap']
+3,6183,6183,2021,85,You're Mines Still,Yung Bleu Featuring Drake,,0.116,0.075,0.9244,fear,,"['alabama rap', 'pop r&b', 'pop rap', 'r&b', 'trap']"
+4,6184,6184,2021,86,Tequila Shots,Kid Cudi,,0.118,0.17,-0.9938,fear,Male,"['hip hop', 'ohio hip hop', 'pop rap', 'rap']"
+5,6185,6185,2021,87,Back To The Streets,Saweetie Featuring Jhene Aiko,,0.173,0.06,0.9956,disgust,,"['cali rap', 'dance pop', 'pop', 'pop rap', 'r&b', 'trap queen']"
+7,6187,6187,2021,89,Way Out,Jack Harlow Featuring Big Sean,,0.064,0.088,-0.9581,anger,,"['deep underground hip hop', 'kentucky hip hop', 'rap']"
+8,6188,6188,2021,90,Hit Different,SZA Featuring Ty Dolla $ign,,0.14,0.062,0.9922,anger,,"['pop', 'r&b', 'rap']"
+9,6189,6189,2021,91,'Tis The Damn Season,Taylor Swift,,0.104,0.086,0.8885,trust,Female,['pop']
+10,6190,6190,2021,92,Damage,H.E.R.,,0.067,0.081,-0.9669,sadness,Female,"['alternative r&b', 'dance pop', 'pop', 'r&b']"
+11,6191,6191,2021,93,Backdoor,Lil Durk,,0.06,0.191,-0.9953,anger,Male,"['chicago drill', 'chicago rap', 'drill', 'hip hop', 'rap', 'trap']"
+12,6192,6192,2021,94,Silent Night,Carrie Underwood,,0.312,0.0,0.9896,joy,Female,"['adult standards', 'mellow gold', 'soft rock']"
+13,6193,6193,2021,95,Golden,Harry Styles,,0.05,0.099,-0.9419,fear,Male,['pop']
+14,6194,6194,2021,96,Hole In The Bottle,Kelsea Ballerini,,0.086,0.11,-0.9417,trust,Female,"['contemporary country', 'country', 'pop']"
+15,6195,6195,2021,97,"No Body, No Crime",Taylor Swift Featuring HAIM,,0.136,0.145,-0.9442,trust,,['pop']
+16,6196,6196,2021,98,Moonwalking In Calabasas,DDG,,0.174,0.244,-0.9951,anger,,"['pop rap', 'rap', 'trap']"
+17,6197,6197,2021,99,Took Her To The O,King Von,,0.038,0.174,-0.999,disgust,Male,['chicago rap']
+18,6198,6198,2021,100,Put Your Records On,Ritt Momney,,0.185,0.035,0.9959,joy,Male,"['bedroom pop', 'indie pop']"

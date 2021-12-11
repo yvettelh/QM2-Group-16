@@ -1,0 +1,21 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,6100,6100,2021,2,Rockin' Around The Christmas Tree,Brenda Lee,,0.254,0.014,0.9868,anticipation,Female,"['adult standards', 'brill building pop', 'vocal jazz']"
+1,6101,6101,2021,3,Jingle Bell Rock,Bobby Helms,,0.056,0.0,0.7351,anticipation,Male,[]
+2,6102,6102,2021,4,A Holly Jolly Christmas,Burl Ives,,0.261,0.0,0.9928,anticipation,Male,"['adult standards', 'american folk revival']"
+3,6103,6103,2021,5,It's The Most Wonderful Time Of The Year,Andy Williams,,0.29,0.043,0.9964,anticipation,Male,"['adult standards', 'brill building pop', 'easy listening']"
+4,6104,6104,2021,6,Feliz Navidad,Jose Feliciano,,0.401,0.0,0.9987,sadness,,"['latin pop', 'puerto rican pop']"
+5,6105,6105,2021,7,Mood,24kGoldn Featuring iann dior,,0.236,0.081,0.998,anger,,"['cali rap', 'pop rap']"
+6,6106,6106,2021,8,"Let It Snow, Let It Snow, Let It Snow",Dean Martin,,0.168,0.134,0.8817,anger,Male,"['adult standards', 'easy listening', 'lounge']"
+7,6107,6107,2021,9,Last Christmas,Wham!,,0.18,0.079,0.997,joy,Male,"['europop', 'new romantic', 'new wave', 'new wave pop', 'soft rock']"
+8,6108,6108,2021,10,Run Rudolph Run,Chuck Berry,,0.113,0.02,0.9268,anticipation,Male,"['blues rock', 'classic rock', 'rock', 'rock-and-roll', 'rockabilly', 'soul']"
+9,6109,6109,2021,11,The Christmas Song (Merry Christmas To You),Nat King Cole,,0.096,0.031,0.8316,joy,Male,"['adult standards', 'vocal jazz']"
+10,6110,6110,2021,12,Underneath The Tree,Kelly Clarkson,,0.159,0.044,0.9904,joy,Female,"['dance pop', 'neo mellow', 'pop', 'pop rock', 'post-teen pop', 'talent show']"
+11,6111,6111,2021,13,Sleigh Ride,The Ronettes,,0.195,0.077,0.9961,joy,,"['adult standards', 'brill building pop', 'classic girl group', 'motown', 'soul']"
+12,6112,6112,2021,14,Positions,Ariana Grande,,0.15,0.051,0.9903,joy,Female,"['dance pop', 'pop']"
+13,6113,6113,2021,15,It's Beginning To Look A Lot Like Christmas,Perry Como And The Fontane Sisters With Mitchell Ayres And His Orchestra,,0.193,0.0,0.9927,anticipation,,"['adult standards', 'canadian pop', 'jazz pop', 'lounge']"
+14,6114,6114,2021,16,Rudolph The Red-Nosed Reindeer,Gene Autry,,0.181,0.0,0.9852,disgust,Male,"['adult standards', 'american folk revival']"
+15,6115,6115,2021,17,Santa Tell Me,Ariana Grande,,0.182,0.022,0.998,joy,Female,"['dance pop', 'pop']"
+16,6116,6116,2021,18,Happy Holiday / The Holiday Season,Andy Williams,,0.255,0.009,0.9977,anticipation,Male,"['adult standards', 'brill building pop', 'easy listening']"
+17,6117,6117,2021,19,Christmas (Baby Please Come Home),Darlene Love,,0.275,0.022,0.9954,anticipation,Female,"['dance pop', 'pop', 'urban contemporary']"
+18,6118,6118,2021,20,White Christmas,Bing Crosby,,0.116,0.0,0.9501,joy,Male,"['adult standards', 'easy listening']"
+19,6119,6119,2021,21,Holy,Justin Bieber Featuring Chance The Rapper,,0.162,0.085,0.9938,anticipation,,['pop']

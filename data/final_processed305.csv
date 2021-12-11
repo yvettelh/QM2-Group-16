@@ -1,0 +1,21 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,6080,6080,2020,82,Remember You Young,Thomas Rhett,,0.183,0.109,0.9571,anticipation,Male,"['contemporary country', 'country', 'country road', 'modern country rock']"
+1,6081,6081,2020,83,Death,Trippie Redd Featuring DaBaby,,0.09,0.066,0.9737,anger,,['sad rap']
+2,6082,6082,2020,84,223's,YNW Melly & 9lokknine,,0.13,0.143,-0.9806,anger,,"['melodic rap', 'trap']"
+3,6083,6083,2020,85,Slide,H.E.R. Featuring YG,,0.133,0.045,0.9922,trust,,"['alternative rock', 'neo mellow', 'permanent wave', 'pop rock', 'post-grunge', 'rock']"
+4,6084,6084,2020,86,RITMO (Bad Boys For Life),Black Eyed Peas X J Balvin,,0.092,0.049,0.9751,joy,,"['dance pop', 'pop', 'pop rap']"
+5,6085,6085,2020,87,Watermelon Sugar,Harry Styles,,0.088,0.0,0.9502,fear,Male,['pop']
+6,6086,6086,2020,88,Homesick,Kane Brown,,0.171,0.041,0.9927,sadness,Male,"['black americana', 'contemporary country']"
+7,6087,6087,2020,89,Slow Dancing In The Dark,Joji,,0.135,0.028,0.9827,sadness,Male,"['alternative r&b', 'viral pop']"
+8,6088,6088,2020,90,Easy,DaniLeigh Featuring Chris Brown,,0.12,0.133,-0.9944,anger,,"['british soul', 'pop', 'pop soul', 'uk pop']"
+9,6089,6089,2020,91,Vete,Bad Bunny,,0.0,0.096,-0.9803,anger,Male,"['latin', 'reggaeton', 'trap latino']"
+10,6090,6090,2020,92,Baby Sitter,DaBaby Featuring Offset,,0.067,0.189,-0.9986,fear,,"['north carolina hip hop', 'rap']"
+11,6091,6091,2020,93,Nice To Meet Ya,Niall Horan,,0.281,0.028,0.9979,joy,Male,"['dance pop', 'pop', 'post-teen pop']"
+12,6092,6092,2020,94,Yellow Hearts,Ant Saunders,,0.124,0.084,0.9414,anticipation,Male,"['chill r&b', 'pop']"
+13,6093,6093,2020,95,Tip Toe,Roddy Ricch Featuring A Boogie Wit da Hoodie,,0.084,0.086,0.3527,sadness,,"['brooklyn drill', 'new york drill', 'nyc rap']"
+14,6094,6094,2020,96,Candy,Doja Cat,,0.077,0.149,-0.9968,anger,Female,"['dfw rap', 'melodic rap', 'rap']"
+15,6095,6095,2020,97,BEST ON EARTH,Russ & BIA,,0.192,0.11,0.9928,trust,,"['hawaiian hip hop', 'rap']"
+16,6096,6096,2020,98,Tusa,Karol G & Nicki Minaj,,0.018,0.064,-0.9663,fear,,"['latin', 'reggaeton', 'reggaeton colombiano', 'trap latino']"
+17,6097,6097,2020,99,Enemies,Post Malone Featuring DaBaby,,0.109,0.223,-0.9985,sadness,,"['dfw rap', 'melodic rap', 'rap']"
+18,6098,6098,2020,100,South Of The Border,Ed Sheeran Featuring Camila Cabello & Cardi B,,0.211,0.033,0.9993,joy,,"['pop', 'uk pop']"
+19,6099,6099,2021,1,All I Want For Christmas Is You,Mariah Carey,,0.076,0.086,0.923,joy,Female,"['dance pop', 'pop', 'urban contemporary']"

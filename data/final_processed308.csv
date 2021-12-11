@@ -1,0 +1,21 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,6140,6140,2021,42,Therefore I Am,Billie Eilish,,0.097,0.194,-0.9849,joy,Female,"['art pop', 'electropop', 'pop']"
+1,6141,6141,2021,43,Deck The Halls,Nat King Cole,,0.143,0.013,0.9337,joy,Male,"['adult standards', 'vocal jazz']"
+2,6142,6142,2021,44,Dynamite,BTS,,0.149,0.03,0.9946,anticipation,Male,"['k-pop', 'k-pop boy group']"
+3,6143,6143,2021,45,Please Come Home For Christmas,Eagles,,0.206,0.232,-0.7961,sadness,Male,"['album rock', 'classic rock', 'country rock', 'folk rock', 'heartland rock', 'mellow gold', 'rock', 'soft rock', 'yacht rock']"
+4,6144,6144,2021,46,Santa Claus Is Comin' To Town,Jackson 5,,0.293,0.038,0.9919,anticipation,,"['classic rock', 'heartland rock', 'mellow gold', 'permanent wave', 'rock', 'singer-songwriter']"
+5,6145,6145,2021,47,Little Saint Nick,The Beach Boys,,0.074,0.0,0.9553,anticipation,Male,"['baroque pop', 'brill building pop', 'classic rock', 'psychedelic rock', 'rock', 'sunshine pop']"
+6,6146,6146,2021,48,Take Me Home For Christmas,Dan + Shay,,0.082,0.008,0.9642,fear,Male,"['contemporary country', 'country', 'pop']"
+7,6147,6147,2021,49,Have Yourself A Merry Little Christmas,Michael Buble,,0.21,0.051,0.9565,joy,,"['adult standards', 'hollywood', 'lounge', 'torch song', 'vocal jazz']"
+8,6148,6148,2021,50,I'll Be Home For Christmas,Bing Crosby,,0.221,0.0,0.9747,joy,Male,"['adult standards', 'canadian pop', 'jazz pop', 'lounge']"
+9,6149,6149,2021,51,What You Know Bout Love,Pop Smoke,,0.181,0.039,0.9969,joy,Male,['brooklyn drill']
+10,6150,6150,2021,52,Whoopty,CJ,,0.045,0.145,-0.9939,fear,Male,['nyc rap']
+11,6151,6151,2021,53,Lonely,Justin Bieber & benny blanco,,0.107,0.258,-0.9959,fear,,"['north carolina hip hop', 'rap']"
+12,6152,6152,2021,54,Hallelujah,Carrie Underwood & John Legend,,0.445,0.065,0.9998,trust,,['a cappella']
+13,6153,6153,2021,55,WAP,Cardi B Featuring Megan Thee Stallion,,0.1,0.15,-0.9959,fear,,"['dance pop', 'pop', 'pop rap', 'rap']"
+14,6154,6154,2021,56,Holiday,Lil Nas X,,0.164,0.146,0.6836,anticipation,Male,"['lgbtq+ hip hop', 'pop']"
+15,6155,6155,2021,57,Better Together,Luke Combs,,0.16,0.038,0.9881,anticipation,Male,"['contemporary country', 'country']"
+16,6156,6156,2021,58,On Me,Lil Baby,,0.21,0.022,0.9993,joy,Male,"['atl hip hop', 'atl trap', 'rap', 'trap']"
+17,6157,6157,2021,59,Afterglow,Ed Sheeran,,0.1,0.176,-0.9884,sadness,Male,"['pop', 'uk pop']"
+18,6158,6158,2021,60,Gnat,Eminem,,0.096,0.135,-0.9961,anger,Male,"['detroit hip hop', 'hip hop', 'rap']"
+19,6159,6159,2021,61,Rockin' Around The Christmas Tree,Justin Bieber,,0.254,0.014,0.9868,anticipation,Male,"['adult standards', 'brill building pop', 'vocal jazz']"
