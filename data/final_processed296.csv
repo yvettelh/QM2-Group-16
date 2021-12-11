@@ -1,0 +1,21 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,5900,5900,2019,2,Without Me,Halsey,,0.082,0.167,-0.9981,anger,Female,"['detroit hip hop', 'hip hop', 'rap']"
+1,5901,5901,2019,3,All I Want For Christmas Is You,Mariah Carey,,0.076,0.086,0.923,joy,Female,"['dance pop', 'pop', 'urban contemporary']"
+2,5902,5902,2019,4,Sicko Mode,Travis Scott,,0.154,0.084,0.9939,trust,Male,"['rap', 'slap house']"
+3,5903,5903,2019,5,Sunflower (Spider-Man: Into The Spider-Verse),Post Malone & Swae Lee,,0.062,0.084,-0.7783,anticipation,,"['dfw rap', 'melodic rap', 'rap']"
+4,5904,5904,2019,6,High Hopes,Panic! At The Disco,,0.224,0.043,0.9983,fear,Male,['modern rock']
+5,5905,5905,2019,7,Happier,Marshmello & Bastille,,0.198,0.036,0.9966,surprise,,"['art pop', 'electropop', 'pop']"
+6,5906,5906,2019,8,Jingle Bell Rock,Bobby Helms,,0.056,0.0,0.7351,anticipation,Male,[]
+7,5907,5907,2019,9,Rockin' Around The Christmas Tree,Brenda Lee,,0.254,0.014,0.9868,anticipation,Female,"['adult standards', 'brill building pop', 'vocal jazz']"
+8,5908,5908,2019,10,A Holly Jolly Christmas,Burl Ives,,0.261,0.0,0.9928,anticipation,Male,"['adult standards', 'american folk revival']"
+9,5909,5909,2019,11,The Christmas Song (Merry Christmas To You),Nat King Cole,,0.096,0.031,0.8316,joy,Male,"['adult standards', 'vocal jazz']"
+10,5910,5910,2019,12,Drip Too Hard,Lil Baby & Gunna,,0.051,0.212,-0.9986,anticipation,,"['atl hip hop', 'atl trap', 'rap', 'trap']"
+11,5911,5911,2019,13,It's The Most Wonderful Time Of The Year,Andy Williams,,0.29,0.043,0.9964,anticipation,Male,"['adult standards', 'brill building pop', 'easy listening']"
+12,5912,5912,2019,14,Girls Like You,Maroon 5 Featuring Cardi B,,0.552,0.014,0.9998,joy,,"['pop', 'pop rock']"
+13,5913,5913,2019,15,ZEZE,Kodak Black Featuring Travis Scott & Offset,,0.134,0.125,-0.8404,anger,,"['florida rap', 'hip hop', 'melodic rap', 'miami hip hop', 'rap', 'southern hip hop', 'trap']"
+14,5914,5914,2019,16,Rudolph The Red-Nosed Reindeer,Gene Autry,,0.181,0.0,0.9852,disgust,Male,"['adult standards', 'american folk revival']"
+15,5915,5915,2019,17,Mo Bamba,Sheck Wes,,0.08,0.174,-0.99,anger,Male,"['rap', 'trap', 'underground hip hop', 'vapor trap']"
+16,5916,5916,2019,18,Wake Up In The Sky,Gucci Mane X Bruno Mars X Kodak Black,,0.143,0.08,0.9911,joy,,"['atl hip hop', 'dirty south rap', 'gangster rap', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']"
+17,5917,5917,2019,19,Money,Cardi B,,0.088,0.214,-0.9986,anger,Female,['k-pop']
+18,5918,5918,2019,20,"Let It Snow, Let It Snow, Let It Snow",Dean Martin,,0.168,0.134,0.8817,anger,Male,"['adult standards', 'easy listening', 'lounge']"
+19,5919,5919,2019,21,Eastside,"benny blanco, Halsey & Khalid",,0.093,0.028,0.9889,joy,,"['electropop', 'pop', 'pop rap']"

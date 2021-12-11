@@ -55,7 +55,6 @@ for i in range(310, 0, -1):
                     df.loc[ind, 'Gender'] = 'Male'
                 elif GDBpron == 'she/her':
                     df.loc[ind, 'Gender'] = 'Female'
-            print(df.loc[ind, 'Gender'])
 
         #Genius Query
         genius_song = genius.search_song(row['song'])

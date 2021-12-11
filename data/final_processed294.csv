@@ -1,0 +1,21 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,5860,5860,2018,62,Yours,Russell Dickerson,,0.12,0.133,-0.9944,anger,Male,[]
+1,5861,5861,2018,63,I'll Name The Dogs,Blake Shelton,,0.116,0.016,0.9889,anticipation,Male,"['contemporary country', 'country', 'country road', 'oklahoma country']"
+2,5862,5862,2018,64,The Race,Tay-K,,0.042,0.182,-0.9973,fear,Male,"['cali rap', 'dfw rap', 'rap', 'trap', 'underground hip hop', 'vapor trap']"
+3,5863,5863,2018,65,Eye 2 Eye,Huncho Jack Featuring Takeoff,,0.098,0.078,0.8057,trust,,"['plugg', 'rap', 'trap', 'underground hip hop', 'vapor trap']"
+4,5864,5864,2018,66,Look What You Made Me Do,Taylor Swift,,0.074,0.114,-0.9641,anger,Female,['pop']
+5,5865,5865,2018,67,Kooda,6ix9ine,,0.005,0.242,-0.9993,disgust,Male,"['emo rap', 'rap']"
+6,5866,5866,2018,68,Modern Slavery,Huncho Jack,,0.14,0.119,0.7972,trust,,"['hip hop', 'melodic rap', 'pop rap', 'rap', 'southern hip hop', 'trap']"
+7,5867,5867,2018,69,Thunder/Young Dumb & Broke (Medley),Imagine Dragons + Khalid,,0.068,0.34,-0.9995,fear,,"['modern rock', 'pop', 'rock']"
+8,5868,5868,2018,70,Codeine Dreaming,Kodak Black Featuring Lil Wayne,,0.071,0.018,0.9898,fear,,"['florida rap', 'hip hop', 'melodic rap', 'miami hip hop', 'rap', 'southern hip hop', 'trap']"
+9,5869,5869,2018,71,Black & Chinese,Huncho Jack,,0.154,0.093,0.9666,fear,,"['hip hop', 'melodic rap', 'pop rap', 'rap', 'southern hip hop', 'trap']"
+10,5870,5870,2018,72,Round Here Buzz,Eric Church,,0.078,0.069,0.4404,fear,Male,"['contemporary country', 'country', 'country road', 'modern country rock']"
+11,5871,5871,2018,73,Light It Up,Luke Bryan,,0.078,0.065,0.8228,fear,Male,"['dance pop', 'edm', 'electro house', 'moombahton', 'pop', 'pop dance', 'pop rap', 'tropical house']"
+12,5872,5872,2018,74,Echame La Culpa,Luis Fonsi & Demi Lovato,,0.052,0.188,-0.9968,fear,,"['latin', 'latin pop', 'puerto rican pop']"
+13,5873,5873,2018,75,Betrayed,Lil Xan,,0.118,0.255,-0.9981,anger,Male,"['emo rap', 'underground hip hop', 'vapor trap']"
+14,5874,5874,2018,76,Losing Sleep,Chris Young,,0.158,0.118,0.9049,sadness,Male,"['contemporary country', 'country', 'country road', 'modern country rock']"
+15,5875,5875,2018,77,No Smoke,YoungBoy Never Broke Again,,0.151,0.241,-0.9939,surprise,Male,"['baton rouge rap', 'trap']"
+16,5876,5876,2018,78,Tell Me You Love Me,Demi Lovato,,0.272,0.081,0.9986,joy,,"['dance pop', 'pop', 'post-teen pop']"
+17,5877,5877,2018,79,You Broke Up With Me,Walker Hayes,,0.08,0.186,-0.9936,fear,Male,"['contemporary country', 'country', 'country road', 'modern country rock']"
+18,5878,5878,2018,80,Ice Tray,Quavo & Lil Yachty,,0.072,0.15,-0.9942,anger,,"['hip hop', 'melodic rap', 'pop rap', 'rap', 'southern hip hop', 'trap']"
+19,5879,5879,2018,81,I Could Use A Love Song,Maren Morris,,0.248,0.062,0.9969,joy,Female,"['contemporary country', 'country', 'texas country']"

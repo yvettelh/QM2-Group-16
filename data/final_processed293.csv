@@ -1,0 +1,21 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,5840,5840,2018,42,The Christmas Song (Merry Christmas To You),Nat King Cole,,0.096,0.031,0.8316,joy,Male,"['adult standards', 'vocal jazz']"
+1,5841,5841,2018,43,River,Eminem Featuring Ed Sheeran,,0.133,0.19,-0.9956,sadness,,['modern blues']
+2,5842,5842,2018,44,Silence,Marshmello Featuring Khalid,,0.144,0.209,-0.9746,anticipation,,"['brostep', 'dance pop', 'edm', 'pop', 'pop dance', 'progressive electro house']"
+3,5843,5843,2018,45,Marry Me,Thomas Rhett,,0.207,0.037,0.9955,sadness,Male,"['contemporary country', 'country', 'country road', 'modern country rock']"
+4,5844,5844,2018,46,A Holly Jolly Christmas,Burl Ives,,0.261,0.0,0.9928,anticipation,Male,"['adult standards', 'american folk revival']"
+5,5845,5845,2018,47,Unforgettable,French Montana Featuring Swae Lee,,0.12,0.133,-0.6926,anticipation,,"['hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']"
+6,5846,5846,2018,48,What About Us,P!nk,,0.203,0.087,0.9928,anticipation,Female,"['dance pop', 'pop']"
+7,5847,5847,2018,49,Lemon,N*E*R*D & Rihanna,,0.084,0.154,-0.9968,anticipation,,"['rap', 'trap']"
+8,5848,5848,2018,50,Candy Paint,Post Malone,,0.111,0.118,-0.9644,anticipation,Male,"['dfw rap', 'melodic rap', 'rap']"
+9,5849,5849,2018,51,Roll In Peace,Kodak Black Featuring XXXTENTACION,,0.149,0.166,-0.9869,sadness,,"['florida rap', 'hip hop', 'melodic rap', 'miami hip hop', 'rap', 'southern hip hop', 'trap']"
+10,5850,5850,2018,52,La Modelo,Ozuna x Cardi B,,0.03,0.044,-0.5514,disgust,,"['latin', 'puerto rican pop', 'reggaeton', 'trap latino']"
+11,5851,5851,2018,53,Ric Flair Drip,Offset & Metro Boomin,,0.128,0.11,0.4954,anger,,"['atl hip hop', 'hip hop', 'pop rap', 'rap', 'southern hip hop', 'trap']"
+12,5852,5852,2018,54,Lights Down Low,MAX Featuring gnash,,0.162,0.115,0.9786,joy,,"['dance pop', 'electropop', 'pop', 'post-teen pop', 'viral pop']"
+13,5853,5853,2018,55,Let Me Go,Hailee Steinfeld & Alesso Featuring Florida Georgia Line & Watt,,0.235,0.088,0.9976,joy,,"['dance pop', 'pop', 'pop rock', 'post-teen pop']"
+14,5854,5854,2018,56,Like I Loved You,Brett Young,,0.165,0.128,0.8853,anticipation,Male,['contemporary country']
+15,5855,5855,2018,57,Pills And Automobiles,"Chris Brown Featuring Yo Gotti, A Boogie Wit da Hoodie & Kodak Black",,0.21,0.068,0.9969,anticipation,,[]
+16,5856,5856,2018,58,Greatest Love Story,LANCO,,0.173,0.035,0.9969,joy,,"['contemporary country', 'country pop']"
+17,5857,5857,2018,59,Rubbin Off The Paint,YBN Nahmir,,0.089,0.166,-0.9948,anger,Male,"['alabama rap', 'rap', 'trap', 'underground hip hop', 'vapor trap', 'viral rap']"
+18,5858,5858,2018,60,Good Old Days,Macklemore Featuring Kesha,,0.171,0.035,0.9957,anticipation,,"['pop rap', 'seattle hip hop']"
+19,5859,5859,2018,61,...Ready For It?,Taylor Swift,,0.124,0.098,0.9227,anticipation,Female,['pop']
