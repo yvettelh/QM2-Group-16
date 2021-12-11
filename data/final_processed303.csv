@@ -1,0 +1,21 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,6040,6040,2020,42,White Christmas,Bing Crosby,,0.116,0.0,0.9501,joy,Male,"['adult standards', 'easy listening']"
+1,6041,6041,2020,43,Jingle Bells,Frank Sinatra,,0.107,0.004,0.9864,anticipation,Male,"['adult standards', 'easy listening', 'lounge']"
+2,6042,6042,2020,44,Like It's Christmas,Jonas Brothers,,0.222,0.041,0.9976,anticipation,Male,"['boy band', 'dance pop', 'pop', 'post-teen pop']"
+3,6043,6043,2020,45,Baby It's Cold Outside,Dean Martin,,0.105,0.059,0.9537,joy,Male,"['adult standards', 'easy listening', 'lounge']"
+4,6044,6044,2020,46,Trampoline,SHAED,,0.266,0.057,0.9957,joy,,"['electropop', 'pop']"
+5,6045,6045,2020,47,Woah,Lil Baby,,0.112,0.135,-0.9629,anger,Male,"['atl hip hop', 'hip hop', 'melodic rap', 'plugg', 'pop rap', 'rap', 'southern hip hop', 'trap']"
+6,6046,6046,2020,48,Futsal Shuffle 2020,Lil Uzi Vert,,0.148,0.167,-0.8899,anger,Male,"['melodic rap', 'philly rap', 'rap', 'trap']"
+7,6047,6047,2020,49,"You're A Mean One, Mr. Grinch",Thurl Ravenscroft,,0.07,0.117,-0.8949,disgust,Male,['movie tunes']
+8,6048,6048,2020,50,Ran$om,Lil Tecca,,0.131,0.184,-0.9949,anger,Male,"['melodic rap', 'rap']"
+9,6049,6049,2020,51,Falling,Trevor Daniel,,0.031,0.157,-0.9715,sadness,Male,['pop']
+10,6050,6050,2020,52,Don't Start Now,Dua Lipa,,0.032,0.131,-0.9873,anticipation,Female,"['dance pop', 'pop', 'uk pop']"
+11,6051,6051,2020,53,Adore You,Harry Styles,,0.137,0.05,0.9913,joy,Male,['pop']
+12,6052,6052,2020,54,One Man Band,Old Dominion,,0.055,0.053,0.5423,sadness,Male,"['contemporary country', 'country', 'country road']"
+13,6053,6053,2020,55,Hot Girl Bummer,blackbear,,0.088,0.33,-0.9996,anger,Male,"['pop', 'pop rap']"
+14,6054,6054,2020,56,Suicidal,YNW Melly & Juice WRLD,,0.183,0.22,-0.9829,fear,,"['melodic rap', 'trap']"
+15,6055,6055,2020,57,Lover,Taylor Swift,,0.208,0.035,0.9955,joy,Female,['pop']
+16,6056,6056,2020,58,On Chill,Wale Featuring Jeremih,,0.124,0.17,-0.9894,trust,,"['hip hop', 'pop', 'pop rap', 'r&b', 'rap', 'southern hip hop', 'trap', 'urban contemporary']"
+17,6057,6057,2020,59,Even Though I'm Leaving,Luke Combs,,0.076,0.049,0.7667,fear,Male,"['contemporary country', 'country']"
+18,6058,6058,2020,60,No Idea,Don Toliver,,0.208,0.029,0.9968,joy,Male,"['pop', 'rap', 'trap']"
+19,6059,6059,2020,61,Graveyard,Halsey,,0.081,0.167,-0.9912,sadness,Female,"['dance pop', 'electropop', 'etherpop', 'indie poptimism', 'pop']"

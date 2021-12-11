@@ -1,0 +1,20 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,6160,6160,2021,62,Favorite Time Of Year,Carrie Underwood,,0.094,0.025,0.9644,anticipation,Female,"['contemporary country', 'country', 'country dawn', 'country road', 'oklahoma country', 'post-teen pop']"
+2,6162,6162,2021,64,Monster,Shawn Mendes & Justin Bieber,,0.091,0.155,-0.9979,fear,,"['alternative metal', 'christian alternative rock', 'christian music', 'christian rock']"
+3,6163,6163,2021,65,Diamonds,Sam Smith,,0.57,0.0,0.9998,joy,Male,"['barbadian pop', 'dance pop', 'pop', 'pop rap', 'urban contemporary']"
+4,6164,6164,2021,66,Starting Over,Chris Stapleton,,0.116,0.14,-0.9291,sadness,Male,"['contemporary country', 'outlaw country']"
+5,6165,6165,2021,67,Cry Baby,Megan Thee Stallion Featuring DaBaby,,0.139,0.327,-0.9988,joy,,"['houston rap', 'pop', 'trap queen']"
+6,6166,6166,2021,68,You Broke Me First.,Tate McRae,,0.029,0.272,-0.9986,fear,Female,"['alt z', 'dance pop', 'pop', 'post-teen pop']"
+7,6167,6167,2021,69,My Ex's Best Friend,Machine Gun Kelly X blackbear,,0.139,0.17,-0.9465,joy,,"['ohio hip hop', 'pop rap']"
+8,6168,6168,2021,70,Without You,The Kid LAROI,,0.078,0.125,-0.9138,sadness,Male,['australian hip hop']
+9,6169,6169,2021,71,"Big, Big Plans",Chris Lane,,0.202,0.012,0.9982,sadness,Male,"['contemporary country', 'country', 'country road', 'modern country rock']"
+10,6170,6170,2021,72,Mr. Right Now,21 Savage & Metro Boomin Featuring Drake,,0.092,0.136,-0.9946,fear,,"['atl hip hop', 'rap', 'trap']"
+11,6171,6171,2021,73,Forever After All,Luke Combs,,0.13,0.03,0.9898,anticipation,Male,"['contemporary country', 'country']"
+12,6172,6172,2021,74,Throat Baby (Go Baby),BRS Kash,,0.197,0.09,0.9968,joy,Male,[]
+13,6173,6173,2021,75,Under The Mistletoe,Kelly Clarkson & Brett Eldredge,,0.166,0.015,0.9971,joy,,"['dance pop', 'neo mellow', 'pop', 'pop rock', 'post-teen pop', 'talent show']"
+14,6174,6174,2021,76,Tyler Herro,Jack Harlow,,0.164,0.063,0.9957,fear,Male,"['deep underground hip hop', 'kentucky hip hop', 'rap']"
+15,6175,6175,2021,77,Champagne Problems,Taylor Swift,,0.119,0.119,-0.2297,trust,Female,['pop']
+16,6176,6176,2021,78,The First Noel,Gabby Barrett,,0.096,0.021,0.9636,anticipation,Female,"['adult standards', 'brill building pop', 'easy listening']"
+17,6177,6177,2021,79,Love You Like I Used To,Russell Dickerson,,0.412,0.057,0.9995,joy,Male,"['contemporary country', 'country', 'country road', 'modern country rock']"
+18,6178,6178,2021,80,Champagne Night,Lady A,,0.388,0.025,0.9995,anticipation,Female,"['contemporary country', 'country', 'country dawn', 'country pop', 'country road', 'neo mellow']"
+19,6179,6179,2021,81,Prisoner,Miley Cyrus Featuring Dua Lipa,,0.083,0.126,-0.9629,anger,,"['dance pop', 'pop', 'post-teen pop']"

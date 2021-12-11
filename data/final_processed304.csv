@@ -1,0 +1,21 @@
+,Unnamed: 0,Unnamed: 0.1,year,rank,song,artist,gender,nltk_positive,nltk_negative,nltk_score,nltk_top_emotion,Gender,genres
+0,6060,6060,2020,62,My Oh My,Camila Cabello Featuring DaBaby,,0.136,0.094,0.973,trust,,"['dance pop', 'pop', 'post-teen pop']"
+1,6061,6061,2020,63,Juicy,Doja Cat & Tyga,,0.14,0.087,0.9922,anticipation,,"['dance pop', 'pop']"
+2,6062,6062,2020,64,The Bones,Maren Morris,,0.184,0.04,0.996,surprise,Female,"['contemporary country', 'country', 'texas country']"
+3,6063,6063,2020,65,Playing Games,Summer Walker,,0.108,0.061,0.8339,joy,Female,"['pop', 'r&b']"
+4,6064,6064,2020,66,Heat,Chris Brown Featuring Gunna,,0.115,0.177,-0.9983,fear,,"['gauze pop', 'indietronica', 'shiver pop']"
+5,6065,6065,2020,67,Into The Unknown,Idina Menzel & AURORA,,0.065,0.087,-0.8267,fear,,"['hollywood', 'show tunes']"
+6,6066,6066,2020,68,VIBEZ,DaBaby,,0.045,0.207,-0.9992,sadness,Male,"['north carolina hip hop', 'rap']"
+7,6067,6067,2020,69,Happy Xmas (War Is Over),John Legend,,0.318,0.058,0.9975,anticipation,Male,"['album rock', 'art rock', 'beatlesque', 'classic rock', 'folk rock', 'mellow gold', 'rock']"
+8,6068,6068,2020,70,Heart On Ice,Rod Wave,,0.179,0.144,0.8817,sadness,Male,['florida rap']
+9,6069,6069,2020,71,What If I Never Get Over You,Lady Antebellum,,0.034,0.064,-0.843,sadness,,"['contemporary country', 'country', 'country dawn', 'country pop', 'country road', 'neo mellow']"
+10,6070,6070,2020,72,Blinding Lights,The Weeknd,,0.065,0.091,-0.4434,anticipation,Male,"['canadian contemporary r&b', 'canadian pop', 'pop']"
+11,6071,6071,2020,73,Ridin' Roads,Dustin Lynch,,0.134,0.0,0.9911,joy,Male,"['contemporary country', 'country', 'country road', 'modern country rock']"
+12,6072,6072,2020,74,Camelot,NLE Choppa,,0.1,0.164,-0.9902,anger,Male,['memphis hip hop']
+13,6073,6073,2020,75,Heartache Medication,Jon Pardi,,0.147,0.075,0.965,sadness,Male,"['contemporary country', 'country', 'country road', 'modern country rock']"
+14,6074,6074,2020,76,Start Wit Me,Roddy Ricch & Gunna,,0.084,0.136,-0.9893,fear,,"['melodic rap', 'rap', 'trap']"
+15,6075,6075,2020,77,Take What You Want,Post Malone Featuring Ozzy Osbourne & Travis Scott,,0.088,0.036,0.9543,fear,,"['dfw rap', 'melodic rap', 'rap']"
+16,6076,6076,2020,78,Leave Em Alone,"Layton Greene, Lil Baby, City Girls & PnB Rock",,0.128,0.162,-0.9926,sadness,,"['hip hop', 'melodic rap', 'pop rap', 'rap', 'southern hip hop', 'trap']"
+17,6077,6077,2020,79,Hate Me,Ellie Goulding & Juice WRLD,,0.086,0.242,-0.9991,sadness,,"['dance pop', 'electropop', 'indietronica', 'metropopolis', 'pop', 'uk pop']"
+18,6078,6078,2020,80,Kinfolks,Sam Hunt,,0.126,0.012,0.9936,fear,Male,"['contemporary country', 'country pop']"
+19,6079,6079,2020,81,Let Me Know (I Wonder Why Freestyle),Juice WRLD,,0.152,0.029,0.9955,trust,Male,"['chicago rap', 'melodic rap']"
