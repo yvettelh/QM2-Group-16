@@ -6,6 +6,7 @@ from textblob import TextBlob #language detection
 from sentiment_analysis_subroutine import sentiment
 
 #artists' pronoun/gender database
+#Source: https://makemusicequal.chartmetric.com/pronoun-gender-database
 GenderDB = pandas.read_csv('data/raw/GenderDataset.csv')
 
 #Genius API access
@@ -21,7 +22,7 @@ auth_manager = spotipy.oauth2.SpotifyClientCredentials()
 spotify = spotipy.Spotify(auth_manager=auth_manager)
 
 
-for i in range(62, 0, -1):
+for i in range(310, 0, -1):
     if os.path.isfile('data/final_processed'+str(i)+'.csv'):
         continue
     df = pandas.read_csv('data/raw/final_unprocessed'+str(i)+'.csv')
@@ -35,36 +36,37 @@ for i in range(62, 0, -1):
     df_temp['genres'] = None
 
     for ind, row in df.iterrows():
-        print("Quering for entry " + str(ind + 1) + " out of " + str(len(df.index) + 1))
+        print("Quering for entry " + str(ind + 1) + " out of " + str(len(df.index)) + '\n File: ' +'final_unprocessed'+str(i)+'.csv')
 
         #Artists' gender DB query
-        GDBArtist = GenderDB.loc[ GenderDB['name'] == row['artist']]
-        for ind2, row2 in GDBArtist.iterrows():
-            GDBname = row2[1]
-            GDBpron = row2[3]
-            GDBgender = row2[4]
-        if GDBname == row['artist']:
-            if GDBpron == 'they/them' and GDBgender != None:
-                if GDBgender == 'male':
+        if not GenderDB.loc[ GenderDB['name'] == row['artist']].empty:
+            GDBArtist = GenderDB.loc[ GenderDB['name'] == row['artist']]
+            for ind2, row2 in GDBArtist.iterrows():
+                GDBname = row2[1]
+                GDBpron = row2[3]
+                GDBgender = row2[4]
+            if GDBname == row['artist']:
+                if GDBpron == 'they/them' and GDBgender != None:
+                    if GDBgender == 'male':
+                        df.loc[ind, 'Gender'] = 'Male'
+                    elif GDBgender == 'female':
+                        df.loc[ind, 'Gender'] = 'Female'
+                elif GDBpron == 'he/him':
                     df.loc[ind, 'Gender'] = 'Male'
-                elif GDBgender == 'female':
+                elif GDBpron == 'she/her':
                     df.loc[ind, 'Gender'] = 'Female'
-            elif GDBpron == 'he/him':
-                df.loc[ind, 'Gender'] = 'Male'
-            elif GDBpron == 'she/her':
-                df.loc[ind, 'Gender'] = 'Female'
-        print(df.loc[ind, 'Gender'])
+            print(df.loc[ind, 'Gender'])
 
         #Genius Query
         genius_song = genius.search_song(row['song'])
         if not genius_song:
             continue
             #TextBlob language detection
-        lyrics = TextBlob(genius_song.lyrics)
-        if row['song'] in ['I Wanna Be Loved', 'Reveille Rock', 'Feliz Navidad', 'Dakiti']:    #some problematic songs
+        '''lyrics = TextBlob(genius_song.lyrics)
+        if row['song'] in ['I Wanna Be Loved', 'Reveille Rock', 'Feliz Navidad', 'Dakiti', 'Bichota', 'Hawai', 'Deck The Halls']:    #some problematic songs
             continue
         elif lyrics.detect_language() != 'en':
-            continue
+            continue'''
 
         #Genius Query + nltk results
         nltk_results = sentiment(genius_song.lyrics)
